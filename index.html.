@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aiub Silva Engenharia</title>
+  <style>
+    /* Reset simples */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+    /* Cabeçalho */
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 { margin-bottom: 10px; }
+    nav a {
+      margin: 0 15px;
+      color: #f1f1f1;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #1abc9c; }
+
+    /* Seções */
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    section h2 { margin-bottom: 20px; color: #2c3e50; }
+    section p { margin-bottom: 15px; }
+
+    /* Lista de serviços */
+    ul { list-style: none; padding: 0; }
+    ul li {
+      background: #ecf0f1;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #1abc9c;
+      border-radius: 6px;
+    }
+
+    /* Rodapé */
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Aiub Silva Engenharia</h1>
+    <p>Qualidade, segurança e confiabilidade em soluções de engenharia</p>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Página inicial -->
+  <section id="home">
+    <h2>Prestação de Serviços de Engenharia</h2>
+    <p>
+      Nosso compromisso é entregar qualidade, segurança e confiabilidade, 
+      oferecendo soluções modernas e adequadas às necessidades de cada cliente.
+    </p>
+  </section>
+
+  <!-- Sobre mim -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Somos especializados em soluções completas em engenharia elétrica, 
+      oferecendo atendimento a clientes residenciais, comerciais e industriais.
+    </p>
+
+    <h3>Principais Atividades:</h3>
+    <ul>
+      <li>
+        <strong>Instalações Elétricas:</strong> execução de sistemas elétricos em residências, 
+        comércios e indústrias, sempre seguindo as normas técnicas de segurança 
+        e eficiência energética.
+      </li>
+      <li>
+        <strong>Manutenção Industrial:</strong> serviços preventivos e corretivos em máquinas, 
+        equipamentos e sistemas elétricos, garantindo continuidade operacional 
+        e redução de paradas inesperadas.
+      </li>
+      <li>
+        <strong>Projetos Elétricos:</strong> desenvolvimento de projetos personalizados para 
+        redes elétricas residenciais e industriais, com foco em desempenho, 
+        economia e sustentabilidade.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📧 Email: <a href="mailto:aiubsilva.eng@icloud.com">aiubsilva.eng@icloud.com</a></p>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 - Aiub Silva Engenharia</p>
+  </footer>
+</body>
+</html>
